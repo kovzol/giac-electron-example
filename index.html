@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Native Giac in Electron</title>
+  </head>
+
+<body>
+  <h1>Native Giac in Electron</h1>
+  <form action="#">
+    <label>Enter Giac input:</label>
+    <input type='text' id='input' value="expand((a+b)^2)"/>
+    <input type='button' value='Compute!' onclick="calculate()"/>
+    <br>
+    <label>The output:</label>
+    <input type='text' id='output' readonly />
+  </form>
+</body>
+
+<script>
+function calculate()
+{
+  var casInput = document.getElementById('input').value; 
+  document.getElementById('output').value = window.ipc.sendSync('giac', casInput);
+}
+</script>
+
+</html>
