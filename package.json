@@ -1,11 +1,11 @@
 {
   "name": "giac-electron-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimal Electron application with native Giac",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "install": "electron-rebuild && mkdir -p build && cp node_modules/giac/build/Release/giac.node build"
+    "install": "node install.js"
   },
   "repository": "https://github.com/kovzol/giac-electron-example",
   "keywords": [
@@ -22,6 +22,7 @@
   "devDependencies": {
     "electron": "~1.6.2",
     "electron-rebuild": "~1.5.7",
-    "giac": ">=1.2.3-201704251405"
+    "giac": ">=1.2.3-201704251405",
+    "file-system": "~2.2.2"
   }
 }
