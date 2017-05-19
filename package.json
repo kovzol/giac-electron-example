@@ -1,11 +1,11 @@
 {
   "name": "giac-electron-example",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A minimal Electron application with native Giac",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "postinstall": "node install.js"
+    "install": "node install.js"
   },
   "repository": "https://github.com/kovzol/giac-electron-example",
   "keywords": [
@@ -20,6 +20,12 @@
   "author": "Zoltán Kovács <zoltan@geogebra.org>",
   "license": "CC0-1.0",
   "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-rebuild": "~1.5.7",
+    "giac": ">=1.2.3-201704251405",
+    "file-system": "~2.2.2"
+  },
+  "dependencies": {
     "electron": "~1.6.2",
     "electron-rebuild": "~1.5.7",
     "giac": ">=1.2.3-201704251405",
