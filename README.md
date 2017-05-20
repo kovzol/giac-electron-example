@@ -28,8 +28,9 @@ npm start
 ## Notes
 
 This example is known to work under
-* Linux (64 bit, node 6.2.2, npm 3.9.5, GMP 6.1.1, MPFR 3.1.5)
-* Mac OS X (node 6.6.0, npm 3.10.3, GMP 6.1.0, MPFR 3.1.3)
+* Ubuntu Linux 16.04.2 (64 bit, node 7.7.4, npm 4.1.2, GMP 6.1.0, MPFR 3.1.4)
+* Ubuntu Linux 16.10 (64 bit, node 6.2.2, npm 3.9.5, GMP 6.1.1, MPFR 3.1.5)
+* MacOS 10.11 "El Capitan" (node 6.6.0, npm 3.10.3, GMP 6.1.0, MPFR 3.1.3)
 * Windows 10 (64 bit, node 6.10.3, npm 3.10.10, MPIR 2.6.0; the MPFR part is not yet reported to work)
 
 ## Author
