@@ -7,7 +7,7 @@ function spawnSync(cmd, args, opt) {
 
     if ( isWindows ) {
         if ( !args ) args = [];
-        args.unshift(cmd);
+        args.unshift(cmd.replace(/[/]/g, "\\"));
         args.unshift('/c');
         cmd = process.env.comspec;
     }
