@@ -10,8 +10,8 @@ algebra system.
 
 To clone and run this repository you'll need [Git](https://git-scm.com)
 and [Node.js](https://nodejs.org/en/download/) (which comes with
-[npm](http://npmjs.com)) installed on your computer, and maybe some extra
-prerequisites (see the [Node Giac](https://www.npmjs.com/package/giac)
+[npm](http://npmjs.com)) installed on your computer, and certainly some extra
+prerequisites (please see the [Node Giac](https://www.npmjs.com/package/giac)
 page for more details). From your command line:
 
 ```bash
@@ -24,6 +24,17 @@ npm install
 # Run the app
 npm start
 ```
+
+## Notes
+
+This example is known to work under
+* Linux (64 bit, node 6.2.2, npm 3.9.5, GMP 6.1.1, MPFR 3.1.5)
+* Mac OS X (node 6.6.0, npm 3.10.3, GMP 6.1.0, MPFR 3.1.3)
+* Windows 10 (64 bit, node 6.10.3, npm 3.10.10, MPIR 2.6.0; the MPFR part is not yet reported to work)
+
+## Author
+
+Zoltán Kovács <zoltan@geogebra.org>
 
 ## License
 
