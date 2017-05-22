@@ -28,10 +28,16 @@ npm start
 ## Notes
 
 This example is known to work under
+
 * Ubuntu Linux 16.04.2 (64 bit, node 7.7.4, npm 4.1.2, GMP 6.1.0, MPFR 3.1.4)
 * Ubuntu Linux 16.10 (64 bit, node 6.2.2, npm 3.9.5, GMP 6.1.1, MPFR 3.1.5)
+* Ubuntu Linux 17.04 (64 bit, node 6.10.3, npm 3.10.10, GMP 6.1.2, MPFR 3.1.5)
 * MacOS 10.11 "El Capitan" (node 6.6.0, npm 3.10.3, GMP 6.1.0, MPFR 3.1.3)
 * Windows 10 (64 bit, node 6.10.3, npm 3.10.10, MPIR 2.6.0; the MPFR part is not yet reported to work)
+
+Note that you may need to download a recent node.js version since older versions shipped with Ubuntu
+will almost surely not work. Also you need a recent GCC under Linux, otherwise the C++ compilation
+will fail.
 
 ## Author
 
