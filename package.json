@@ -1,6 +1,6 @@
 {
   "name": "giac-electron-example",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A minimal Electron application with native Giac",
   "main": "main.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "devDependencies": {
     "electron": "~1.6.2",
     "electron-rebuild": "~1.5.7",
-    "giac": ">=1.2.3-201704251405",
+    "giac": ">=1.23.0",
     "file-system": "~2.2.2"
   }
 }
