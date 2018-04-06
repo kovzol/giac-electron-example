@@ -1,6 +1,6 @@
 {
   "name": "giac-electron-example",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A minimal Electron application with native Giac",
   "main": "main.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "author": "Zoltán Kovács <zoltan@geogebra.org>",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~1.6.2",
+    "electron": ">=1.8.3 <1.7 || >=1.7.12 <1.8.0 || >=1.6.17 <1.7.0",
     "electron-rebuild": "~1.5.7",
     "giac": ">=1.23.0",
     "file-system": "~2.2.2"
