@@ -33,6 +33,7 @@ This example is known to work under
   * Ubuntu 16.04.2 (64 bit, node 7.7.4, npm 4.1.2, GMP 6.1.0, MPFR 3.1.4)
   * Ubuntu 16.10 (64 bit, node 6.2.2, npm 3.9.5, GMP 6.1.1, MPFR 3.1.5)
   * Ubuntu 17.04 (64 bit, node 6.10.3, npm 3.10.10, GMP 6.1.2, MPFR 3.1.5)
+  * Ubuntu 18.04.1 (64 bit, node 8.10.0, npm 3.5.2, GMP 6.1.2, MPFR 4.0.1-1)
   * Raspberry Pi 3 (Raspbian Jessie, node 6.11.0, npm 3.10.10, GMP 6.0.0, MPFR 3.1.0, GCC 6)
 * MacOS 10.11 "El Capitan" (node 6.6.0, npm 3.10.3, GMP 6.1.0, MPFR 3.1.3)
 * Windows 10 (32 bit compilation required, node 6.10.3, npm 3.10.10, MPIR 2.6.0, MPFR 3.1.2)
